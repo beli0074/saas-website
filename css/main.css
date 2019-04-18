@@ -61,9 +61,15 @@ html {
 }
 
 .btn {
+  text-decoration: none;
   background-color: #F16F8E;
   border-color: #F24770;
   color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .btn:hover {

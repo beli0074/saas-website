@@ -1,0 +1,143 @@
+html {
+  font-family: Libre Baskerville, serif;
+  background-color: #FDD4B8;
+}
+
+.masthead {
+  background-color: #FFFFFF;
+
+  color: #707070;
+}
+
+.nav {
+  position: relative;
+  background-color: #F5F4F4;
+}
+
+.nav a {
+  color: #707070;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #fff;
+}
+
+.banner {
+  position: relative;
+  background-color: #F8B2B7;
+  color: #FFFFFF;
+}
+
+.why {
+  background-color: #FDD4B8;
+  color: #FFFFFF;
+}
+
+.inside-box {
+  background-color: #FFE8D8;
+  border-color: #FAAC77;
+  border-style: solid;
+  border-width: .5em;
+}
+
+.pick {
+  background-color: #B6D6EB;
+  background-image: url("../images/scattered-limes2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  color: #FFFFFF;
+}
+
+.boxes {
+  background-color: #F8B2B7;
+  color: #FFFFFF;
+}
+
+.community {
+  background-color: #FAEEA8;
+  color: #FFFFFF;
+}
+
+.btn {
+  background-color: #F16F8E;
+  border-color: #F24770;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #F24770;
+  border-color: #F16F8E;
+}
+
+.btn-2 {
+  background-color: #93C38C;
+  border-color: #91A38F;
+
+  color: #fff;
+}
+
+.btn-3 {
+  background-color: #F24770;
+  border-color: #F16F8E;
+}
+
+.btn-3:hover {
+  background-color: #F16F8E;
+  border-color: #F24770;
+}
+
+.btn-2:hover {
+  background-color: #91A38F;
+  border-color: #93C38C;
+}
+
+.footer {
+  background-color: #F5F4F4;
+  color: #707070;
+}
+
+.pricing-1 {
+  background-color: #F8B2B7;
+  color: #FFFFFF;
+}
+
+.pricing-2 {
+  background-color: #FAEEA8;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: Permanent Marker, cursive;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: Permanent Marker, cursive;
+}
+
+
+tbody tr:nth-child(odd) {
+  background-color: #FCBE94;
+}
+
+.price {
+  width: 7em;
+}
+
+.premium {
+  width: 6em;
+}
+
+table {
+  min-width: 50em;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+}

@@ -2,14 +2,95 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Sign Up</title>
+  <title>Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-</head>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Permanent+Marker" rel="stylesheet">
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
+    <div class="masthead">
+      <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
+        <h1 class="push-0">Fruit to Go</h1>
+      </div>
+      <nav role="navigation">
+        <div class="nav text-center">
+          <div class="wrapper gutter-1-2">
+            <ol class="mega list-group-inline push-0">
+              <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="index.html">Home</a></li>
+              <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="pricing.html">Product</a></li>
+              <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="tour.html">Feature</a></li>
+              <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="sign-in.html">Sign-Up</a></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main">
+    <section>
+      <h2 class="yotta text-center">Sign Up</h2>
+
+      <div class="grid max-length">
+        <div class="gutter-2 quarter space-right push unit xs-1 m-1 l-1">
+          <label for="name">Name</label>
+          <input id="name" placeholder="..." required>
+        </div>
+
+        <div class="gutter-2 quarter space-left push unit xs-1 m-1 l-1">
+          <label for="lastname">Lastname</label>
+          <input id="lastname" placeholder="..." required>
+        </div>
+
+        <div class="gutter-2 quarter space-left push unit xs-1 m-1 l-1">
+          <label for="email">Email</label>
+          <input id="email" placeholder="me@me.com" required>
+        </div>
+
+        <div class="gutter-2 quarter space-left push unit xs-1 m-1 l-1">
+          <label for="password">Password</label>
+          <input id="password" placeholder="..." required>
+        </div>
+
+        <div class="island text-center push-l">
+          <a href="sign-in.html"><button class="btn btn mega" type="submit">Confirm</button></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+      <div class="grid grid-middle footer pad-b-1-2">
+        <div class="unit xs-1 l-1-2 gutter-1-2">
+          <small class="push-0 micro">© <i>Copyright</i></small>
+        </div>
+
+        <div class="unit xs-1 l-1-2 text-right">
+          <ul class="list-group-inline">
+            <li class="island">
+              <a href="https://facebook.com"><i class="icon i-24"><img class="" src="images/facebook.png" alt="" aria-details="grassy-shrubs"></i></a>
+            <div class="gutter-1-4" id="Facebook-Icon"></div>
+            </li>
+            <li class="island">
+              <a href="https://instagra.com"><i class="icon i-24"><img class="" src="images/instagram.png" alt="" aria-details="shrubs-with-laurels"></i></a>
+            <div class="gutter-1-4" id="Instagram-Icon"></div>
+              </li>
+              <li class="island">
+                <a href="https://twitter.com/"><i class="icon i-24"><img class="" src="images/twitter.png" alt="" aria-details="two-level-shrub"></i></a>
+              <div class="gutter-1-4" id="Twitter-Icon"></div>
+              </li>
+            </ul>
+          </div>
+      </div>
+  </footer>
 </body>
 </html>

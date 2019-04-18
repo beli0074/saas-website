@@ -9,7 +9,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Permanent+Marker" rel="stylesheet">
-<body class="tour">
+<body>
 
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
@@ -36,67 +36,30 @@
     </div>
   </header>
 
-  <main class="pad-t-2 pad-b-2 gutter-1-2">
-    <div class="wrapper">
-      <h2 class="text-center yotta">pricing</h2>
+  <main role="main">
+    <section>
+      <h2 class="yotta text-center">Sign In</h2>
 
-      <div class="table-wrapper scrollable">
-        <table class="push-0">
-          <caption class="mega">Here you will find all the pricing needed for our packages and bubdkes.</caption>
-          <thead>
-            <tr>
-              <th class="bundle" scope="col">Bundle</th>
-              <th class="express" scope="col">Express</th>
-              <th class="price" scope="col">Bundle price</th>
-              <th class="premium" scope="col">Premium Bundle</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th class="not-bold italic" scope="row">Apple Bundle</th>
-              <td>No</td>
-              <td>39.99</td>
-              <td>29.99</td>
-            </tr>
+      <div class="grid max-length">
+        <div class="gutter-2 quarter space-right push unit xs-1 m-1 l-1">
+          <label for="username">Username</label>
+          <input id="username" placeholder="..." required>
+        </div>
 
-            <tr>
-              <th class="not-bold italic" scope="row">Orange Bundle</th>
-              <td>No</td>
-              <td>39.99</td>
-              <td>29.99</td>
-            </tr>
+        <div class="gutter-2 quarter space-left push unit xs-1 m-1 l-1">
+          <label for="Password">Password</label>
+          <input id="Password" placeholder="..." required>
+        </div>
 
-            <tr>
-              <th class="not-bold italic" scope="row">Tropical Bundle</th>
-              <td>No</td>
-              <td>45.99</td>
-              <td>35.99</td>
-            </tr>
-
-            <tr>
-              <th class="not-bold italic" scope="row">Big Bundle</th>
-              <td>Yes</td>
-              <td>49.99</td>
-              <td>35.99</td>
-            </tr>
-
-            <tr>
-              <th class="not-bold italic" scope="row">Small Bundle</th>
-              <td>Yes</td>
-              <td>29.99</td>
-              <td>24.99</td>
-            </tr>
-
-            <tr>
-              <th class="not-bold italic" scope="row">Random Bundle</th>
-              <td>Yes</td>
-              <td>49.99</td>
-              <td>35.99</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="gutter-2 island text-center push-l">
+        <button class="btn btn mega" type="submit">Sign In</button>
       </div>
-    </div>
+
+        <div class="island text-center push">
+          <a href="sign-up.html"><button class="btn btn-3 mega" type="submit">Sign Up</button></a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -116,7 +79,7 @@
             <div class="gutter-1-4" id="Instagram-Icon"></div>
               </li>
               <li class="island">
-                <a href="https://twitter.com"><i class="icon i-24"><img class="" src="images/twitter.png" alt="" aria-details="two-level-shrub"></i></a>
+                <a href="https://twitter.com/"><i class="icon i-24"><img class="" src="images/twitter.png" alt="" aria-details="two-level-shrub"></i></a>
               <div class="gutter-1-4" id="Twitter-Icon"></div>
               </li>
             </ul>

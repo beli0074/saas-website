@@ -31,7 +31,7 @@ html {
 
 .why {
   background-color: #FDD4B8;
-  color: #FFFFFF;
+  color: #333333;
 }
 
 .inside-box {
@@ -62,8 +62,8 @@ html {
 
 .btn {
   text-decoration: none;
-  background-color: #F16F8E;
-  border-color: #F24770;
+  background-color: #996888;
+  border-color: #996888;
   color: #fff;
 }
 
@@ -81,7 +81,7 @@ a {
   background-color: #93C38C;
   border-color: #91A38F;
 
-  color: #fff;
+  color: #003D00;
 }
 
 .btn-3 {
@@ -119,7 +119,7 @@ h1 {
 }
 
 h2 {
-  color: #FFFFFF;
+  color: #333333;
   font-family: Permanent Marker, cursive;
 }
 

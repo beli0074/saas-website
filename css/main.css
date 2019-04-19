@@ -1,17 +1,17 @@
 html {
-  font-family: Libre Baskerville, serif;
-  background-color: #FDD4B8;
+  font-family: "Libre Baskerville", serif;
+  background-color: #fdd4b8;
 }
 
 .masthead {
-  background-color: #FFFFFF;
+  background-color: #fff;
 
   color: #707070;
 }
 
 .nav {
   position: relative;
-  background-color: #F5F4F4;
+  background-color: #f5f4f4;
 }
 
 .nav a {
@@ -25,39 +25,39 @@ html {
 
 .banner {
   position: relative;
-  background-color: #F8B2B7;
-  color: #FFFFFF;
+  background-color: #f8b2b7;
+  color: #fff;
 }
 
 .why {
-  background-color: #FDD4B8;
-  color: #333333;
+  background-color: #fdd4b8;
+  color: #333;
 }
 
 .inside-box {
-  background-color: #FFE8D8;
-  border-color: #FAAC77;
+  background-color: #ffe8d8;
+  border-color: #faac77;
   border-style: solid;
   border-width: .5em;
 }
 
 .pick {
-  background-color: #B6D6EB;
+  background-color: #b6d6eb;
   background-image: url("../images/scattered-limes2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .boxes {
-  background-color: #F8B2B7;
-  color: #FFFFFF;
+  background-color: #f8b2b7;
+  color: #fff;
 }
 
 .community {
-  background-color: #FAEEA8;
-  color: #FFFFFF;
+  background-color: #faeea8;
+  color: #fff;
 }
 
 .btn {
@@ -69,63 +69,62 @@ html {
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .btn:hover {
-  background-color: #F24770;
-  border-color: #F16F8E;
+  background-color: #f24770;
+  border-color: #f16f8e;
 }
 
 .btn-2 {
-  background-color: #93C38C;
-  border-color: #91A38F;
+  background-color: #93c38c;
+  border-color: #91a38f;
 
-  color: #003D00;
+  color: #003d00;
 }
 
 .btn-3 {
-  background-color: #F24770;
-  border-color: #F16F8E;
+  background-color: #f24770;
+  border-color: #f16f8e;
 }
 
 .btn-3:hover {
-  background-color: #F16F8E;
-  border-color: #F24770;
+  background-color: #f16f8e;
+  border-color: #f24770;
 }
 
 .btn-2:hover {
-  background-color: #91A38F;
-  border-color: #93C38C;
+  background-color: #91a38f;
+  border-color: #93c38c;
 }
 
 .footer {
-  background-color: #F5F4F4;
+  background-color: #f5f4f4;
   color: #707070;
 }
 
 .pricing-1 {
-  background-color: #F8B2B7;
-  color: #FFFFFF;
+  background-color: #f8b2b7;
+  color: #fff;
 }
 
 .pricing-2 {
-  background-color: #FAEEA8;
-  color: #FFFFFF;
+  background-color: #faeea8;
+  color: #fff;
 }
 
 h1 {
-  font-family: Permanent Marker, cursive;
+  font-family: "Permanent Marker", cursive;
 }
 
 h2 {
-  color: #333333;
-  font-family: Permanent Marker, cursive;
+  color: #333;
+  font-family: "Permanent Marker", cursive;
 }
 
-
 tbody tr:nth-child(odd) {
-  background-color: #FCBE94;
+  background-color: #fcbe94;
 }
 
 .price {

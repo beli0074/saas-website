@@ -9,19 +9,21 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Permanent+Marker" rel="stylesheet">
+</head>
 <body class="tour">
 
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#banner">Jump to navigation</a></li>
   </ul>
 
-  <header role="banner">
+  <header role="banner" id="banner" tabindex="0">
     <div class="masthead">
       <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
         <h1 class="push-0">Fruit to Go</h1>
       </div>
-      <nav role="navigation">
+      <nav role="navigation" id="nav" tabindex="0">
         <div class="nav text-center">
           <div class="wrapper gutter-1-2">
             <ol class="mega list-group-inline push-0">
@@ -36,92 +38,101 @@
     </div>
   </header>
 
-  <main class="pad-t-2 pad-b-2 gutter-1-2">
-    <div class="wrapper">
-      <h2 class="yotta">pricing</h2>
+  <main role="main" id="main" tabindex="0" class="pad-t-2 pad-b-2 gutter-1-2">
+    <article>
+      <div class="wrapper">
+        <h2 class="yotta">pricing</h2>
 
-      <div class="table-wrapper scrollable">
-        <table class="push-0">
-          <caption class="mega">Here you will find all the pricing needed for our packages and bubdkes.</caption>
-          <thead>
-            <tr>
-              <th class="bundle" scope="col">Bundle</th>
-              <th class="express" scope="col">Express</th>
-              <th class="price" scope="col">Bundle price</th>
-              <th class="premium" scope="col">Premium Bundle</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th class="not-bold italic" scope="row">Apple Bundle</th>
-              <td>No</td>
-              <td>39.99</td>
-              <td>29.99</td>
-            </tr>
+        <div class="table-wrapper scrollable">
+          <table class="push-0">
+            <caption class="mega">Here you will find all the pricing needed for our packages and bubdkes.</caption>
+            <thead>
+              <tr>
+                <th class="bundle" scope="col">Bundle</th>
+                <th class="express" scope="col">Express</th>
+                <th class="price" scope="col">Bundle price</th>
+                <th class="premium" scope="col">Premium Bundle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="not-bold italic" scope="row">Apple Bundle</th>
+                <td>No</td>
+                <td>39.99</td>
+                <td>29.99</td>
+              </tr>
 
-            <tr>
-              <th class="not-bold italic" scope="row">Orange Bundle</th>
-              <td>No</td>
-              <td>39.99</td>
-              <td>29.99</td>
-            </tr>
+              <tr>
+                <th class="not-bold italic" scope="row">Orange Bundle</th>
+                <td>No</td>
+                <td>39.99</td>
+                <td>29.99</td>
+              </tr>
 
-            <tr>
-              <th class="not-bold italic" scope="row">Tropical Bundle</th>
-              <td>No</td>
-              <td>45.99</td>
-              <td>35.99</td>
-            </tr>
+              <tr>
+                <th class="not-bold italic" scope="row">Tropical Bundle</th>
+                <td>No</td>
+                <td>45.99</td>
+                <td>35.99</td>
+              </tr>
 
-            <tr>
-              <th class="not-bold italic" scope="row">Big Bundle</th>
-              <td>Yes</td>
-              <td>49.99</td>
-              <td>35.99</td>
-            </tr>
+              <tr>
+                <th class="not-bold italic" scope="row">Big Bundle</th>
+                <td>Yes</td>
+                <td>49.99</td>
+                <td>35.99</td>
+              </tr>
 
-            <tr>
-              <th class="not-bold italic" scope="row">Small Bundle</th>
-              <td>Yes</td>
-              <td>29.99</td>
-              <td>24.99</td>
-            </tr>
+              <tr>
+                <th class="not-bold italic" scope="row">Small Bundle</th>
+                <td>Yes</td>
+                <td>29.99</td>
+                <td>24.99</td>
+              </tr>
 
-            <tr>
-              <th class="not-bold italic" scope="row">Random Bundle</th>
-              <td>Yes</td>
-              <td>49.99</td>
-              <td>35.99</td>
-            </tr>
-          </tbody>
-        </table>
+              <tr>
+                <th class="not-bold italic" scope="row">Random Bundle</th>
+                <td>Yes</td>
+                <td>49.99</td>
+                <td>35.99</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="embed">
+            <img class="embed-item embed-16by12" src="images/watermelon.png" alt="">
+          </div>
+          <div class="island-2 text-center">
+            <form style="display: inline" action="pricing.html" method="get">
+              <button type="submit" class="text-upper btn tera">Products</button>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
+    </article>
   </main>
 
-  <footer>
-      <div class="grid grid-middle footer pad-b-1-2">
-        <div class="unit xs-1 l-1-2 gutter-1-2">
-          <small class="push-0 micro">© <i>Copyright</i></small>
-        </div>
-
-        <div class="unit xs-1 l-1-2 text-right">
-          <ul class="list-group-inline">
-            <li class="island">
-              <a href="https://facebook.com"><i class="icon i-24"><img class="" src="images/facebook.png" alt="" aria-details="grassy-shrubs"></i></a>
-            <div class="gutter-1-4" id="Facebook-Icon"></div>
-            </li>
-            <li class="island">
-              <a href="https://instagra.com"><i class="icon i-24"><img class="" src="images/instagram.png" alt="" aria-details="shrubs-with-laurels"></i></a>
-            <div class="gutter-1-4" id="Instagram-Icon"></div>
-              </li>
-              <li class="island">
-                <a href="https://twitter.com"><i class="icon i-24"><img class="" src="images/twitter.png" alt="" aria-details="two-level-shrub"></i></a>
-              <div class="gutter-1-4" id="Twitter-Icon"></div>
-              </li>
-            </ul>
-          </div>
+  <footer role="contentinfo" id="contentinfo" tabindex="0">
+    <div class="grid grid-middle footer pad-b-1-2">
+      <div class="unit xs-1 l-1-2 gutter-1-2">
+        <small class="push-0 micro">© <i>Copyright</i></small>
       </div>
+      <div class="unit xs-1 l-1-2 text-right">
+        <ul class="list-group-inline">
+          <li class="island">
+            <a href="https://facebook.com"><i class="icon i-24"><img src="images/facebook.png" alt="" aria-details="grassy-shrubs">.</i></a>
+            <div class="gutter-1-4" id="facebook-icon"></div>
+          </li>
+          <li class="island">
+            <a href="https://instagra.com"><i class="icon i-24"><img src="images/instagram.png" alt="" aria-details="shrubs-with-laurels">.</i></a>
+            <div class="gutter-1-4" id="instagram-icon"></div>
+          </li>
+          <li class="island">
+            <a href="https://twitter.com"><i class="icon i-24"><img src="images/twitter.png" alt="" aria-details="two-level-shrub">.</i></a>
+            <div class="gutter-1-4" id="twitter-icon"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
